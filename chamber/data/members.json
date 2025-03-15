@@ -1,0 +1,64 @@
+[{
+        "name": "Sun Bakery",
+        "address": "12 Khreshchatyk St, Kyiv",
+        "phone": "+380 44 123 4567",
+        "website": "https://sunbakery.ua",
+        "image": "sun-bakery.webp",
+        "membership": 3,
+        "description": "Fresh pastries and traditional Ukrainian bread every day."
+    },
+    {
+        "name": "TechnoSolutions",
+        "address": "45 Svobody Ave, Lviv",
+        "phone": "+380 32 987 6543",
+        "website": "https://technosolutions.ua",
+        "image": "technosolutions.webp",
+        "membership": 2,
+        "description": "IT services, small business support, and cybersecurity."
+    },
+    {
+        "name": "Green Garden Landscaping",
+        "address": "78 Shevchenko St, Ivano-Frankivsk",
+        "phone": "+380 34 222 3344",
+        "website": "https://greenlandscape.ua",
+        "image": "green-garden-gandscaping.webp",
+        "membership": 1,
+        "description": "Professional landscaping design and natural beautification services."
+    },
+    {
+        "name": "Lviv Coffee House",
+        "address": "10 Rynok Square, Lviv",
+        "phone": "+380 32 111 2222",
+        "website": "https://lvivcoffee.ua",
+        "image": "lviv.webp",
+        "membership": 3,
+        "description": "Authentic Lviv coffee and a cozy atmosphere for all visitors."
+    },
+    {
+        "name": "UA Digital Agency",
+        "address": "7 Hrushevsky St, Kyiv",
+        "phone": "+380 44 333 4444",
+        "website": "https://uadigital.ua",
+        "image": "ua-digital.webp",
+        "membership": 2,
+        "description": "Website development, mobile apps, and SEO optimization."
+    },
+    {
+        "name": "Dobro Charity Foundation",
+        "address": "21 Soborna St, Vinnytsia",
+        "phone": "+380 43 222 1100",
+        "website": "https://dobrofund.ua",
+        "image": "dobro-ua.webp",
+        "membership": 1,
+        "description": "Providing assistance to children and families in need across Ukraine."
+    },
+    {
+        "name": "M8 Kyiv Business Center",
+        "address": "14 Lesya Ukrainka Blvd, Kyiv",
+        "phone": "+380 44 765 4321",
+        "website": "https://kievbusinesscenter.ua",
+        "image": "m8-business.webp",
+        "membership": 3,
+        "description": "Office spaces, events, and networking opportunities in the heart of Kyiv."
+    }
+]

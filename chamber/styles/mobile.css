@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+    }
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        background: var(--main-collor);
+        width: 100%;
+        padding: 10px;
+    }
+    .nav-list.show {
+        display: flex;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .certificate-grid {
+        grid-template-columns: 1fr;
+    }
+}
