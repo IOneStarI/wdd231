@@ -42,10 +42,9 @@ function displayMembers(members) {
     });
 }
 
-// Set grid view as default
 container.classList.add('grid');
 container.classList.remove('list');
-gridBtn.classList.add('active'); // Set the grid button as active by default
+gridBtn.classList.add('active');
 
 gridBtn.addEventListener('click', () => {
     container.classList.add('grid');
