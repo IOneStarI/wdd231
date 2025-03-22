@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="Kiev Chamber of Commerce - Home" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images/chamber-hero.jpg" />
+    <meta property="og:url" content="https://ionestari.github.io/wdd231/chamber/index.html" />
+
+    <meta name="description" content="Homepage for the Kiev Chamber of Commerce. Discover events, businesses, and join the chamber!">
+    <meta name="author" content="Vladislav Didkovskiy">
+
+    <title>Kiev Chamber of Commerce - Home</title>
+    <link rel="icon" href="images/fav16.png" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/mobile.css" />
+    <script src="scripts/home.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/logo-100.png" alt="Kiev Chamber Logo" />
+            </div>
+            <div class="header-main">
+                <h1>Kiev Chamber of Commerce</h1>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="discover.html" class="nav-link">Discover</a></li>
+                        <li><a href="directory.html" class="nav-link">Directory</a></li>
+                        <li><a href="join.html" class="nav-link">Join</a></li>
+                    </ul>
+                    <button id="menu-toggle" class="menu-toggle">☰</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- Hero Image -->
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Welcome to the Kiev Chamber of Commerce</h2>
+                <div class="cta">
+                    <a href="join.html" class="cta-button">Join the Chamber</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="events">
+            <h2>Upcoming Events</h2>
+            <ul class="events-list">
+                <li><strong>April 5:</strong> Spring Networking Breakfast</li>
+                <li><strong>April 15:</strong> Local Business Expo</li>
+                <li><strong>April 25:</strong> Online Marketing Workshop</li>
+            </ul>
+        </section>
+
+        <section class="weather">
+            <h2>Weather in Kiev</h2>
+            <div id="weather-data">
+                <p><strong>Current:</strong> <span id="current-temp"></span>°C - <span id="weather-desc"></span></p>
+                <div id="forecast"></div>
+            </div>
+        </section>
+
+        <section class="spotlights">
+            <h2 class="spotlights-title">Business Spotlights</h2>
+            <div class="spotlight-container" id="spotlight-container">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>©<span id="currentyear"></span> Vladislav Didkovskiy Ukraine</p>
+        <p class="highlighted">Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>

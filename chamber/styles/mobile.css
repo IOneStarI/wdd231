@@ -22,3 +22,9 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media (min-width: 600px) {
+    #spotlight-container {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
