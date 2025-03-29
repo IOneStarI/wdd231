@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="YourTown Chamber of Commerce" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://ionestari.github.io/wdd231/chamber/index.html" />
+    <meta property="og:url" content="https://ionestari.github.io/wdd231/chamber/index.html" />
+
+    <meta name="description" content="Thank you page for the Kiev Chamber of Commerce. Discover events, businesses, and join the chamber!">
+    <meta name="author" content="Vladislav Didkovskiy">
+
+    <title>Kiev Chamber of Commerce - Thank you</title>
+    <link rel="icon" href="images/fav16.png" />
+    <link rel="stylesheet" href="styles/thankyou.css" />
+    <link rel="stylesheet" href="styles/mobile.css" />
+    <script src="scripts/thankyou.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/logo-100.png" alt="Kiev Chamber Logo" />
+            </div>
+            <div class="header-main">
+                <h1>Kiev Chamber of Commerce</h1>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="discover.html" class="nav-link">Discover</a></li>
+                        <li><a href="directory.html" class="nav-link">Directory</a></li>
+                        <li><a href="join.html" class="nav-link">Join</a></li>
+                    </ul>
+                    <button id="menu-toggle" class="menu-toggle">☰</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="thank-you-container">
+            <h2>We appreciate your submission!</h2>
+            <p>Here is the information you provided:</p>
+            <div class="form-summary">
+                <p><strong>First Name:</strong> <span id="displayFirstName"></span></p>
+                <p><strong>Last Name:</strong> <span id="displayLastName"></span></p>
+                <p><strong>Email:</strong> <span id="displayEmail"></span></p>
+                <p><strong>Mobile Number:</strong> <span id="displayPhone"></span></p>
+                <p><strong>Business Name:</strong> <span id="displayBusinessName"></span></p>
+                <p><strong>Submission Date:</strong> <span id="displayTimestamp"></span></p>
+            </div>
+            <a href="index.html" class="home-link">Return to Home</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>©<span id="currentyear"></span> Vladislav Didkovskiy Ukraine</p>
+        <p class="highlighted">Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
