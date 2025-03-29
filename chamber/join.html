@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <meta property="og:title" content="YourTown Chamber of Commerce" />
-    <meta property="og:type" content="website" />
     <meta property="og:image" content="https://ionestari.github.io/wdd231/chamber/index.html" />
     <meta property="og:url" content="https://ionestari.github.io/wdd231/chamber/index.html" />
+    <meta property="og:type" content="website" />
 
     <meta name="description" content="Join page for the Kiev Chamber of Commerce. Discover events, businesses, and join the chamber!">
     <meta name="author" content="Vladislav Didkovskiy">
@@ -20,62 +20,64 @@
     <script src="scripts/join.js" defer></script>
 </head>
 
-<header>
-    <div class="header-content">
-        <div class="logo">
-            <img src="images/logo-100.png" alt="Kiev Chamber Logo" />
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/logo-100.png" alt="Kiev Chamber Logo" />
+            </div>
+            <div class="header-main">
+                <h1>Kiev Chamber of Commerce</h1>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="discover.html" class="nav-link">Discover</a></li>
+                        <li><a href="directory.html" class="nav-link">Directory</a></li>
+                        <li><a href="join.html" class="nav-link">Join</a></li>
+                    </ul>
+                    <button id="menu-toggle" class="menu-toggle">☰</button>
+                </nav>
+            </div>
         </div>
-        <div class="header-main">
-            <h1>Kiev Chamber of Commerce</h1>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li><a href="index.html" class="nav-link">Home</a></li>
-                    <li><a href="discover.html" class="nav-link">Discover</a></li>
-                    <li><a href="directory.html" class="nav-link">Directory</a></li>
-                    <li><a href="join.html" class="nav-link">Join</a></li>
-                </ul>
-                <button id="menu-toggle" class="menu-toggle">☰</button>
-            </nav>
-        </div>
-    </div>
-</header>
+    </header>
 
-<main class="main">
-    <div class="form-container">
-        <form method="get" action="thankyou.html">
-            <label class="form-group">
+    <main class="main">
+        <div class="form-container">
+            <form method="get" action="thankyou.html">
+                <label class="form-group">
                 Name:
                 <input type="text" name="name" placeholder="Vladislav" pattern="[A-Za-z\-\s]{3,}" title="Enter your name (only letters, hyphens, and spaces, min 3 characters)" required>
             </label>
 
-            <label class="form-group">
+                <label class="form-group">
                 Last Name:
                 <input type="text" name="last-name" placeholder="Didkovskiy" pattern="[A-Za-z\-\s]{3,}" title="Enter your last name (only letters, hyphens, and spaces, min 3 characters)" required>
             </label>
 
-            <label class="form-group">
+                <label class="form-group">
                 Organizational Title:
                 <input type="text" name="organization-title" placeholder="Kiev kava" pattern="[A-Za-z\-\s]{7,}" title="Enter your title (only letters, hyphens, and spaces, min 7 characters)" required>
             </label>
 
-            <label class="form-group">
+                <label class="form-group">
                 Email:
                 <input type="email" name="email" required autocomplete="email" placeholder="example@gmail.com" title="Enter a valid email address">
             </label>
 
-            <label class="form-group">
+                <label class="form-group">
                 Mobile Phone:
                 <input type="tel" name="phone" placeholder="+380675991726" required autocomplete="tel" title="Enter your phone number">
             </label>
 
-            <label class="form-group">
+                <label class="form-group">
                 Business/Organization Name:
                 <input type="text" name="organization" placeholder="My business name" required autocomplete="organization" title="Enter your business name">
             </label>
 
-            <label class="form-group">
+                <label class="form-group">
                 Membership Level:
                 <select name="membership-level" required>
+                    <option value="" disabled selected>Select a membership level</option> 
                     <option value="np">NP Membership (Non-Profit - Free)</option>
                     <option value="bronze">Bronze Membership</option>
                     <option value="silver">Silver Membership</option>
@@ -83,97 +85,97 @@
                 </select>
             </label>
 
-            <label class="form-group">
+                <label class="form-group">
                 Business Description:
                 <textarea name="business-description" title="Describe your business"></textarea>
             </label>
 
-            <input type="hidden" name="timestamp" id="timestamp">
+                <input type="hidden" name="timestamp" id="timestamp">
 
-            <button type="submit" class="submit-btn">Join</button>
-        </form>
+                <button type="submit" class="submit-btn">Join</button>
+            </form>
 
-        <div class="membership-container">
-            <div class="membership-card" id="np-card">
-                <h2>NP Membership</h2>
-                <p>Free for non-profits</p>
-                <a href="#np-modal">More Info</a>
+            <div class="membership-container">
+                <div class="membership-card" id="np-card">
+                    <h2>NP Membership</h2>
+                    <p>Free for non-profits</p>
+                    <a href="#np-modal">More Info</a>
+                </div>
+                <div class="membership-card member-card-level-1" id="bronze-card">
+                    <h2>Bronze Membership</h2>
+                    <p>Basic business benefits</p>
+                    <a href="#bronze-modal">More Info</a>
+                </div>
+                <div class="membership-card member-card-level-2" id="silver-card">
+                    <h2>Silver Membership</h2>
+                    <p>Enhanced business exposure</p>
+                    <a href="#silver-modal">More Info</a>
+                </div>
+                <div class="membership-card member-card-level-3" id="gold-card">
+                    <h2>Gold Membership</h2>
+                    <p>Premium business services</p>
+                    <a href="#gold-modal">More Info</a>
+                </div>
             </div>
-            <div class="membership-card member-card-level-1" id="bronze-card">
-                <h2>Bronze Membership</h2>
-                <p>Basic business benefits</p>
-                <a href="#bronze-modal">More Info</a>
+            <div id="np-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <h2>NP Membership Benefits</h2>
+                    <p class="modal-text">Free for non-profit organizations.</p>
+                    <ul class="modal-list">
+                        <li>Access to networking events</li>
+                        <li>Basic directory listing</li>
+                        <li>Community engagement opportunities</li>
+                    </ul>
+                </div>
             </div>
-            <div class="membership-card member-card-level-2" id="silver-card">
-                <h2>Silver Membership</h2>
-                <p>Enhanced business exposure</p>
-                <a href="#silver-modal">More Info</a>
+
+            <div id="bronze-modal" class="modal">
+                <div class="modal-content member-card-level-1">
+                    <span class="close-modal">&times;</span>
+                    <h2>Bronze Membership Benefits</h2>
+                    <p class="modal-text">Affordable plan with business growth benefits.</p>
+                    <ul class="modal-list">
+                        <li>All NP Membership benefits</li>
+                        <li>Discounted event tickets</li>
+                        <li>Advertising opportunities</li>
+                    </ul>
+                </div>
             </div>
-            <div class="membership-card member-card-level-3" id="gold-card">
-                <h2>Gold Membership</h2>
-                <p>Premium business services</p>
-                <a href="#gold-modal">More Info</a>
+
+            <div id="silver-modal" class="modal">
+                <div class="modal-content member-card-level-2">
+                    <span class="close-modal">&times;</span>
+                    <h2>Silver Membership Benefits</h2>
+                    <p class="modal-text">Boost your business visibility with exclusive perks.</p>
+                    <ul class="modal-list">
+                        <li>All Bronze Membership benefits</li>
+                        <li>Spotlight feature on homepage</li>
+                        <li>Priority access to networking events</li>
+                    </ul>
+                </div>
             </div>
+
+            <div id="gold-modal" class="modal">
+                <div class="modal-content member-card-level-3">
+                    <span class="close-modal">&times;</span>
+                    <h2>Gold Membership Benefits</h2>
+                    <p class="modal-text">Premium support and maximum exposure.</p>
+                    <ul class="modal-list">
+                        <li>All Silver Membership benefits</li>
+                        <li>Exclusive training & mentorship</li>
+                        <li>Featured sponsorship at events</li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
-        <div id="np-modal" class="modal">
-            <div class="modal-content">
-                <span class="close-modal">&times;</span>
-                <h2>NP Membership Benefits</h2>
-                <p class="modal-text">Free for non-profit organizations.</p>
-                <ul class="modal-list">
-                    <li>Access to networking events</li>
-                    <li>Basic directory listing</li>
-                    <li>Community engagement opportunities</li>
-                </ul>
-            </div>
-        </div>
+    </main>
 
-        <div id="bronze-modal" class="modal">
-            <div class="modal-content member-card-level-1">
-                <span class="close-modal">&times;</span>
-                <h2>Bronze Membership Benefits</h2>
-                <p class="modal-text">Affordable plan with business growth benefits.</p>
-                <ul class="modal-list">
-                    <li>All NP Membership benefits</li>
-                    <li>Discounted event tickets</li>
-                    <li>Advertising opportunities</li>
-                </ul>
-            </div>
-        </div>
-
-        <div id="silver-modal" class="modal">
-            <div class="modal-content member-card-level-2">
-                <span class="close-modal">&times;</span>
-                <h2>Silver Membership Benefits</h2>
-                <p class="modal-text">Boost your business visibility with exclusive perks.</p>
-                <ul class="modal-list">
-                    <li>All Bronze Membership benefits</li>
-                    <li>Spotlight feature on homepage</li>
-                    <li>Priority access to networking events</li>
-                </ul>
-            </div>
-        </div>
-
-        <div id="gold-modal" class="modal">
-            <div class="modal-content member-card-level-3">
-                <span class="close-modal">&times;</span>
-                <h2>Gold Membership Benefits</h2>
-                <p class="modal-text">Premium support and maximum exposure.</p>
-                <ul class="modal-list">
-                    <li>All Silver Membership benefits</li>
-                    <li>Exclusive training & mentorship</li>
-                    <li>Featured sponsorship at events</li>
-                </ul>
-            </div>
-        </div>
-
-    </div>
-</main>
-
-<footer>
-    <p>©<span id="currentyear"></span> Vladislav Didkovskiy Ukraine</p>
-    <p class="highlighted">Last Modification: <span id="lastModified"></span></p>
-</footer>
+    <footer>
+        <p>©<span id="currentyear"></span> Vladislav Didkovskiy Ukraine</p>
+        <p class="highlighted">Last Modification: <span id="lastModified"></span></p>
+    </footer>
 </body>
 
 </html>
