@@ -49,3 +49,22 @@
         box-shadow: 0 0 50px #333;
     }
 }
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+    }
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        background: var(--main-collor);
+        width: 100%;
+        padding: 10px;
+    }
+    .nav-list.show {
+        display: flex;
+    }
+    .menu-toggle {
+        display: block;
+    }
+}
