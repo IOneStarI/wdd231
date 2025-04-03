@@ -1,0 +1,64 @@
+[{
+        "name": "Independence Square (Maidan Nezalezhnosti)",
+        "description": "Independence Square is the central square of Kyiv, known for its historical significance and as a site of political rallies. The square features musical fountains and the Independence Column, making it a popular gathering place.",
+        "price": "Free",
+        "address": "Maidan Nezalezhnosti, Kyiv, Ukraine, 02000",
+        "photo_url": "images/1.webp"
+    },
+    {
+        "name": "Golden Gate (Zoloti Vorota)",
+        "description": "The Golden Gate is a historic gateway dating back to 1037, reconstructed in 1982. It serves as a replica of the original fortified entrance to medieval Kyiv and houses a small museum inside.",
+        "price": "Approximately 60 UAH for adults",
+        "address": "Volodymyrska St, 40A, Kyiv, Ukraine, 01034",
+        "photo_url": "images/2.webp"
+    },
+    {
+        "name": "Park Landscape Alley",
+        "description": "Park Landscape Alley is a charming public park featuring unique sculptures and mosaics. It's a delightful place for a leisurely walk, offering artistic installations and panoramic views of the city.",
+        "price": "Free",
+        "address": "Peizazhna Alley, Kyiv, Ukraine, 01025",
+        "photo_url": "images/3.webp"
+    },
+    {
+        "name": "National Museum of the History of Ukraine in the Second World War",
+        "description": "This museum offers extensive exhibits on Ukraine's role in World War II, featuring military equipment, personal stories, and historical documents. The iconic Motherland Monument is also part of the museum complex.",
+        "price": "Approximately 50 UAH for adults",
+        "address": "Lavrska St, 24, Kyiv, Ukraine, 01015",
+        "photo_url": "images/4.webp"
+    },
+    {
+        "name": "Zhytniy Market",
+        "description": "Zhytniy Market is an indoor market in the Podil neighborhood, offering a variety of goods from local vendors. The market's history dates back to the Kievan Rus' era, though the modernist building was opened in 1980.",
+        "price": "Free",
+        "address": "Verkhnii Val St, 16, Kyiv, Ukraine, 04071",
+        "photo_url": "images/5.webp"
+    },
+    {
+        "name": "Toilet History Museum",
+        "description": "An intriguing museum dedicated to the history of toilets, showcasing a wide collection of toilet-related items and offering insights into the evolution of sanitation.",
+        "price": "Approximately 40 UAH for adults",
+        "address": "Rybalska St, 22, Kyiv, Ukraine, 01011",
+        "photo_url": "images/6.webp"
+    },
+    {
+        "name": "Yaroslaviv Val Street",
+        "description": "A bustling street in Kyiv known for its vibrant atmosphere, featuring numerous cafes, bars, and restaurants. It's a great place to experience local culture and cuisine.",
+        "price": "Free",
+        "address": "Yaroslaviv Val St, Kyiv, Ukraine, 01054",
+        "photo_url": "images/7.webp"
+    },
+    {
+        "name": "St. Sophia's Cathedral",
+        "description": "A UNESCO World Heritage Site, St. Sophia's Cathedral is renowned for its stunning architecture and ancient mosaics. It serves as a symbol of Kyiv's historical and cultural heritage.",
+        "price": "Approximately 100 UAH for adults",
+        "address": "Volodymyrska St, 24, Kyiv, Ukraine, 01001",
+        "photo_url": "images/8.webp"
+    },
+    {
+        "name": "St. Michael's Golden-Domed Monastery",
+        "description": "A functioning monastery known for its golden domes and beautiful frescoes. The monastery offers insight into the religious history of Kyiv and provides panoramic views of the city.",
+        "price": "Free",
+        "address": "Triokhsviatytelska St, 8, Kyiv, Ukraine, 01601",
+        "photo_url": "images/9.webp"
+    }
+]

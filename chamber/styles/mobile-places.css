@@ -1,0 +1,51 @@
+@media (min-width: 641px) and (max-width: 1024px) {
+    .place-card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        max-width: 700px;
+        padding: 1rem;
+    }
+    .place-info {
+        flex: 1;
+        padding: 1rem;
+        text-align: left;
+    }
+    .img {
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    .img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 50px #333;
+    }
+}
+
+@media (min-width: 1025px) {
+    .places.grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        max-width: 1400px;
+        margin: 0 auto;
+        gap: 10px
+    }
+    .place-card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        max-width: 100%;
+        padding: 1rem;
+    }
+    .place-info {
+        flex: 1;
+        padding: 1rem;
+        text-align: left;
+    }
+    .img {
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    .img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 50px #333;
+    }
+}
