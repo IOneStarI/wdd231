@@ -1,0 +1,71 @@
+[{
+        "name": "Be The One Hotel",
+        "description": "Be The One Hotel offers modern accommodations with amenities such as free Wi-Fi, private parking, and an on-site restaurant. Guests can enjoy a sauna and hot tub during their stay.",
+        "price_per_day": "2,000 UAH",
+        "photo_url": "images/1.webp",
+        "rating": 4.4
+    },
+    {
+        "name": "Jam Apartments Lviv",
+        "description": "Jam Apartments Lviv provides comfortable apartments in the heart of Lviv, featuring well-equipped kitchens, modern furnishings, and easy access to local attractions.",
+        "price_per_day": "1,500 UAH",
+        "photo_url": "images/2.webp",
+        "rating": 4.4
+    },
+    {
+        "name": "ARTAL Apartment",
+        "description": "ARTAL Apartment offers clean and comfortable accommodations with modern amenities, located a short distance from the metro station for convenient city access.",
+        "price_per_day": "1,800 UAH",
+        "photo_url": "images/3.webp",
+        "rating": 4.7
+    },
+    {
+        "name": "Designer Apartments in Yaroslaviv Grad",
+        "description": "This apartment features a terrace with city views, a fully equipped kitchen, and is located near public transportation options, making it ideal for exploring Kyiv.",
+        "price_per_day": "1,850 UAH",
+        "photo_url": "images/4.webp",
+        "rating": 4.7
+    },
+    {
+        "name": "Kvartirkoff na Obolonskom 40",
+        "description": "CityApartments Kyiv Akademmistechko offers air-conditioned rooms with free Wi-Fi and parking, located in the Svyatoshynskyi district, close to public transport.",
+        "price_per_day": "950 UAH",
+        "photo_url": "images/5.webp",
+        "rating": 4.3
+    },
+    {
+        "name": "Kiev Centre Opera Apartments",
+        "description": "Be The One Hotel offers modern accommodations with amenities such as free Wi-Fi, private parking, and an on-site restaurant. Guests can enjoy a sauna and hot tub during their stay.",
+        "price_per_day": "2,000 UAH",
+        "photo_url": "images/6.webp",
+        "rating": 4.4
+    },
+    {
+        "name": "Kyiv Art Apartments Near Golden Gate",
+        "description": "Jam Apartments Lviv provides comfortable apartments in the heart of Lviv, featuring well-equipped kitchens, modern furnishings, and easy access to local attractions.",
+        "price_per_day": "1,500 UAH",
+        "photo_url": "images/7.webp",
+        "rating": 4.4
+    },
+    {
+        "name": "Flatrent Olympic Park",
+        "description": "ARTAL Apartment offers clean and comfortable accommodations with modern amenities, located a short distance from the metro station for convenient city access.",
+        "price_per_day": "1,800 UAH",
+        "photo_url": "images/8.webp",
+        "rating": 4.7
+    },
+    {
+        "name": "Cityapartments Kyiv Akademmistechko",
+        "description": "This apartment features a terrace with city views, a fully equipped kitchen, and is located near public transportation options, making it ideal for exploring Kyiv.",
+        "price_per_day": "1,850 UAH",
+        "photo_url": "images/9.webp",
+        "rating": 4.7
+    },
+    {
+        "name": "Alex Apartments Near Independence Square",
+        "description": "CityApartments Kyiv Akademmistechko offers air-conditioned rooms with free Wi-Fi and parking, located in the Svyatoshynskyi district, close to public transport.",
+        "price_per_day": "950 UAH",
+        "photo_url": "images/10.webp",
+        "rating": 4.3
+    }
+]

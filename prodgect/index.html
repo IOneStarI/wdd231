@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="RentAway booking site" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://ionestari.github.io/wdd231/chamber/index.html" />
+    <meta property="og:url" content="https://ionestari.github.io/wdd231/chamber/index.html" />
+
+    <meta name="description" content="Homepage for the RentAway booking site. Discover appartments to have good vacation!">
+    <meta name="author" content="Vladislav Didkovskiy">
+
+    <title>Kiev RentAway booking service - Home</title>
+    <link type="image/png" sizes="16x16" rel="icon" href="images/icons8-бронирование-16.png">
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/mobile.css" />
+    <script src="scripts/home.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/logo.png" alt="Kiev Chamber Logo" />
+            </div>
+            <div class="header-main">
+                <h1>Kiev RentAway booking service</h1>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="reviews.html" class="nav-link">Reviews</a></li>
+                        <li><a href="booking.html" class="nav-link">Book</a></li>
+                    </ul>
+                    <button id="menu-toggle" class="menu-toggle">☰</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Welcome on Kiev RentAway booking service</h2>
+                <div class="cta">
+                    <a href="booking.html" class="cta-button">Book an appartments</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <h2 class="reviews-title">Ricent reviews</h2>
+            <div class="reviews-container" id="reviews-container">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>©<span id="currentyear"></span> Vladislav Didkovskiy Ukraine</p>
+        <p class="highlighted">Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>

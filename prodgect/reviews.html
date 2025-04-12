@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="RentAway booking site" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://ionestari.github.io/wdd231/chamber/index.html" />
+    <meta property="og:url" content="https://ionestari.github.io/wdd231/chamber/index.html" />
+
+    <meta name="description" content="Review page for the RentAway booking site. Discover appartments to have good vacation!">
+    <meta name="author" content="Vladislav Didkovskiy">
+
+    <title>Kiev RentAway booking service - reviews</title>
+    <link type="image/png" sizes="16x16" rel="icon" href="images/icons8-бронирование-16.png">
+    <link rel="stylesheet" href="styles/review.css" />
+    <script src="scripts/review.js" defer></script>
+</head>
+
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/logo.png" alt="Kiev Chamber Logo" />
+            </div>
+            <div class="header-main">
+                <h1>Kiev RentAway booking service</h1>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="reviews.html" class="nav-link">Reviews</a></li>
+                        <li><a href="booking.html" class="nav-link">Book</a></li>
+                    </ul>
+                    <button id="menu-toggle" class="menu-toggle">☰</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <form>
+            <label class="form-group">
+                Name of place which you book:
+                <input type="text" name="place" placeholder="Hotel" pattern="[A-Za-z\-\s]{3,}" title="Enter name of the place (only letters, hyphens, and spaces, min 3 characters)" required>
+            </label>
+
+            <label class="form-group">
+                Name:
+                <input type="text" name="name" placeholder="Vladislav" pattern="[A-Za-z\-\s]{3,}" title="Enter your name (only letters, hyphens, and spaces, min 3 characters)" required>
+            </label>
+
+            <label class="form-group">
+                Email:
+                <input type="email" name="email" required autocomplete="email" placeholder="example@gmail.com" title="Enter a valid email address">
+            </label>
+
+            <label class="form-group">
+                Mobile Phone:
+                <input type="tel" name="phone" placeholder="+380675991726" required autocomplete="tel" title="Enter your phone number">
+            </label>
+
+            <label>Overall Rating</label>
+            <div class="rating-group">
+                <label class="star">
+                    <input type="radio" name="rating" value="1" required>
+                    <strong>1</strong>
+                </label>
+                <label class="star">
+                    <input  type="radio" name="rating" value="2">
+                    <strong>2</strong>
+                </label>
+                <label class="star">
+                    <input type="radio" name="rating" value="3">
+                    <strong>3</strong>
+                </label>
+                <label class="star">
+                    <input type="radio" name="rating" value="4">
+                    <strong>4</strong>
+                </label>
+                <label class="star">
+                    <input type="radio" name="rating" value="5">
+                    <strong>5</strong>
+                </label>
+            </div>
+
+            <label class="form-group">
+               Additionnal comments:
+                <textarea name="additionnal-comments" title="Leave you comment"></textarea>
+            </label>
+
+            <input type="hidden" name="timestamp" id="timestamp">
+
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>©<span id="currentyear"></span> Vladislav Didkovskiy Ukraine</p>
+        <p class="highlighted">Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>

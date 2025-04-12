@@ -1,0 +1,71 @@
+[{
+        "name": "Be The One Hotel",
+        "link": "booking.html",
+        "user": "Anonymous",
+        "review": "Wonderful stay! The staff was very accommodating, and the facilities were top-notch. Highly recommend.",
+        "rating": 4.7
+    },
+    {
+        "name": "Jam Apartments Lviv",
+        "link": "booking.html",
+        "user": "Anonymous",
+        "review": "Great location and very comfortable apartments. The kitchenette was well-equipped.",
+        "rating": 4.5
+    },
+    {
+        "name": "ARTAL Apartment",
+        "link": "booking.html",
+        "user": "Anonymous",
+        "review": "Spacious and clean apartment. Conveniently located near public transport.",
+        "rating": 4.6
+    },
+    {
+        "name": "Designer Apartments in Yaroslaviv Grad",
+        "link": "booking.html",
+        "user": "Anonymous",
+        "review": "Beautifully designed apartments with all the necessary amenities. Felt like home.",
+        "rating": 4.8
+    },
+    {
+        "name": "Kvartirkoff na Obolonskom 40",
+        "link": "booking.html",
+        "user": "Anonymous",
+        "review": "Comfortable stay with a nice balcony view. Parking was a plus.",
+        "rating": 4.4
+    },
+    {
+        "name": "Kiev Centre Opera Apartments",
+        "link": "booking.html",
+        "user": "Anonymous",
+        "review": "Excellent location near the opera. The apartment was clean and well-furnished.",
+        "rating": 4.7
+    },
+    {
+        "name": "Kyiv Art Apartments Near Golden Gate",
+        "link": "booking.html",
+        "user": "Anonymous",
+        "review": "Artistic and cozy apartments. Loved the decor and proximity to attractions.",
+        "rating": 4.6
+    },
+    {
+        "name": "Flatrent Olympic Park",
+        "link": "booking.html",
+        "user": "Anonymous",
+        "review": "Modern apartments with great facilities. Metro station nearby.",
+        "rating": 4.5
+    },
+    {
+        "name": "Cityapartments Kyiv Akademmistechko",
+        "link": "booking.html",
+        "user": "Anonymous",
+        "review": "Spacious apartments with all amenities. Friendly staff and good location.",
+        "rating": 4.6
+    },
+    {
+        "name": "Alex Apartments Near Independence Square",
+        "link": "booking.html",
+        "user": "Anonymous",
+        "review": "Perfect spot near the square. Clean and comfortable stay.",
+        "rating": 4.7
+    }
+]

@@ -1,0 +1,209 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-collor: #003366;
+    --secondary-collor: #d1e8ff;
+    --light-text-collor: white;
+    --highlighted-text: #f4d03f;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: var(--secondary-collor);
+}
+
+header {
+    background-color: var(--main-collor);
+    color: var(--light-text-collor);
+    padding: 1rem 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.header-main {
+    flex: 1;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: var(--light-text-collor);
+}
+
+.nav-link:hover {
+    color: var(--highlighted-text);
+}
+
+.highlighted {
+    color: var(--highlighted-text);
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: var(--light-text-collor);
+    cursor: pointer;
+}
+
+.main {
+    padding: 20px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: url('../images/kiev-cover.webp') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+.cta {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.cta a {
+    display: inline-block;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    background-color: var(--main-collor);
+    color: var(--light-text-collor);
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.cta a:hover {
+    background-color: gold;
+    color: black;
+}
+
+.reviews-title {
+    text-align: center;
+}
+
+.reviews {
+    margin: 2rem auto;
+    max-width: 1000px;
+}
+
+#reviews-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.review-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    border: 2px solid #ccc;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transition: transform 0.2s;
+}
+
+.review-card:hover {
+    transform: scale(1.02);
+}
+
+.reviews-info a {
+    color: var(--main-collor);
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+
+.reviews-info a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: var(--main-collor);
+    color: var(--light-text-collor);
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+    }
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        background: var(--main-collor);
+        width: 100%;
+        padding: 10px;
+    }
+    .nav-list.show {
+        display: flex;
+    }
+    .menu-toggle {
+        display: block;
+    }
+}
